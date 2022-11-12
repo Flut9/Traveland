@@ -260,6 +260,97 @@ a, button {
     margin-top: 10px;
 }
 
+/* Special offers */
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.offers__text {
+    max-width: 656px;
+    margin-top: 20px;
+}
+
+.offers__slider {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.offers__item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.offers__item:first-child {
+    margin-left: 0;
+}
+
+.offers__item-title {
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--color-black);
+    margin-top: 20px;
+}
+
+.offers__item-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.offers__item-geopos, .offers__item-grade {
+    display: flex;
+    align-items: center;
+}
+
+.offers__item-geopos span {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: var(--color-black);
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.offers__item-grade {
+    margin-left: 50px;
+}
+
+.offers__item-grade span {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: var(--color-black);
+    margin-left: 10px;
+}
+
+.offers__item-info {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--color-black);
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.offers__item-price {
+    display: inline-block;
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+
+.offers__item-price span {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--color-black);
+}
+
 /* Blog */
 .blog {
     display: flex;
